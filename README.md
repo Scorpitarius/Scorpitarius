@@ -30,16 +30,33 @@ I'm expanding my expertise in **Digital Forensics, Incident Response (DFIR), Thr
 
 ## Digital Forensics & Cybersecurity Projects
 
-This portfolio will document hands-on investigations and projects involving:
+### [DFIR-001 | Forensic File Integrity Verification](https://github.com/Scorpitarius/dfir-evidence-integrity)
 
-- Digital evidence integrity and SHA-256 verification
-- Windows authentication event-log analysis
-- Windows Prefetch and execution artifact analysis
-- File metadata and hidden-data investigations
-- Disk image analysis using forensic tools
-- Security monitoring and threat-hunting exercises
+Conducted a controlled forensic examination demonstrating SHA-256 cryptographic hashing for evidence integrity verification.
 
-Projects will include investigative methodology, tools, findings, and lessons learned.
+- Created and preserved original evidence and a separate working copy.
+- Verified matching SHA-256 hashes before controlled modification.
+- Detected the modification through subsequent hash comparison.
+- Documented procedures, findings, and limitations in a forensic investigation report.
+
+**Skills demonstrated:** Evidence preservation, SHA-256 hashing, PowerShell, forensic documentation.
+
+### [DFIR-002 | Windows Authentication Event Log Investigation](https://github.com/Scorpitarius/dfir-windows-event-log-analysis)
+
+Investigated Windows Security authentication events within a controlled Windows 10 forensic laboratory.
+
+- Analyzed 12 authentication events, including one failed interactive logon and eleven successful service logons.
+- Interpreted Event IDs 4624 and 4625, logon types, and authentication failure status codes.
+- Reconstructed an authentication timeline and verified local-to-UTC timestamp conversion.
+- Preserved native EVTX evidence, exported analysis records, and verified SHA-256 integrity.
+- Documented findings without attributing malicious intent unsupported by the evidence.
+
+**Skills demonstrated:** Windows Event Log analysis, PowerShell, timeline reconstruction, EVTX analysis, evidence integrity verification.
+
+### Upcoming Investigations
+
+Additional projects will cover Windows execution artifacts, NTFS forensics, forensic triage, and incident response investigations.
+
 
 ## Current Focus
 
