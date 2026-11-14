@@ -53,13 +53,16 @@ Investigated Windows Security authentication events within a controlled Windows 
 
 **Skills demonstrated:** Windows Event Log analysis, PowerShell, timeline reconstruction, EVTX analysis, evidence integrity verification.
 
-### DFIR-003 — Windows Prefetch Artifact Investigation
+### [DFIR-003 | Windows Prefetch Artifact Investigation](https://github.com/Scorpitarius/dfir-windows-prefetch-analysis)
 
-Investigated Windows Prefetch execution artifacts using PECmd, controlled application execution, and SHA-256 evidence verification. Analyzed historical execution timestamps, documented forensic limitations, and preserved supporting evidence.
+Investigated Windows Prefetch execution artifacts within a controlled Windows 10 forensic laboratory.
+- Verified Prefetch configuration and established a baseline inventory of 188 artifacts.
+- Performed a controlled Notepad execution experiment and examined changes to the associated Prefetch artifact.
+- Analyzed execution metadata using PECmd, identifying a recorded run count of 11 and historical execution timestamps.
+- Examined the compressed Prefetch file header and verified evidence integrity using SHA-256 hashing.
+- Documented findings and limitations without conclusively attributing the latest recorded execution to the controlled experiment.
 
-**Skills:** Windows Forensics, Prefetch Analysis, PECmd, Execution Timeline Analysis, Evidence Integrity, PowerShell
-
-[View DFIR-003 Project](https://github.com/Scorpitarius/dfir-windows-prefetch-analysis)
+**Skills demonstrated:** Windows Prefetch analysis, PECmd, PowerShell, execution timeline analysis, SHA-256 hashing, forensic documentation.
 
 ### Upcoming Investigations
 
